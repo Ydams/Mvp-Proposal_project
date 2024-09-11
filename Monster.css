@@ -39,3 +39,24 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+/* Player image */
+#player {
+    width: 100px;
+    height: 100px;
+}
+
+/* Target image */
+#target {
+    width: 100px;
+    height: 100px;
+}
+
+/* Bullet styling */
+.bullet {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+}
+
