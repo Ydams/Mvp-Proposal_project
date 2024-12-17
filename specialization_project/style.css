@@ -1,0 +1,90 @@
+h4{
+    color: orange !important;
+    font-size: 20px;
+    font-family: fantasy;
+}
+h1{
+    color: crimson;
+    font-size: 20px;
+}
+h2{
+    color: orange;
+    font-size: 20px solid;
+}
+h3{
+    color: crimson;
+    font-size: 20px solid;
+}
+
+a{
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    font-size: 18px  ;
+    padding: 3px 8px;
+    /*border: 2px solid;*/
+    border-color: crimson;
+    border-radius: 2px;
+    
+}
+a:hover{
+    background-color: transparent;
+    color: crimson;
+    /*border: 2px solid;
+    border-color: crimson;*/
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav>ul>li {
+list-style: none;
+display: inline;
+text-transform: uppercase;
+margin: 15px;
+}
+nav>ul>li>a{
+    background-color: transparent;
+    color: crimson;
+    font-weight: 600;
+    text-transform: lowercase;
+    text-decoration: none;
+    
+    
+    
+    }
+a.active:hover{
+    background-color: rgba(0, 0, 255, 0.5);
+    }
+    nav ul li a.active {
+        background-color: rgb(111, 111, 202);
+        color: crimson;
+        border: none;
+        text-decoration: none;
+        }
+        /* nav ul li.active>a:hover {
+            background-color: blue;
+            color: crimson;
+            border: none;
+            text-decoration: none;
+            } */
+        nav ul li a:hover{
+            background-color:rgba(0, 0, 255, 0.5);
+            border: none;
+            text-decoration: none;
+            opacity: 50px;
+
+            }
+#Portfolio{
+    color: crimson;
+}
+
+nav>ul>li.active {
+    background-color: rgba(0, 0, 255, 0.5);
+    padding:10px;
+
+    }
+
